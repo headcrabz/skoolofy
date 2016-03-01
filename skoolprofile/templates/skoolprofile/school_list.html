@@ -1,4 +1,22 @@
 <html>
+<head>
+<title>trial page</title>
+</head>
+<body>
     <p>Hi there!</p>
-    <p>It works!</p>
+    <p>It not works not not!</p>
+    <div>
+    {{ schools }}
+    </div>
+    
+    {% for school in schools %}
+    <div>
+    {{ school.name }} {{school.desc}} {{school.since}} }}
+    </div>
+    {% endfor %}
+    
+
+
+
+</body>
 </html>
